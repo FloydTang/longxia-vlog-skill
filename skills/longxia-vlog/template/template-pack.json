@@ -1,0 +1,37 @@
+{
+  "template_pack": "course-memory",
+  "version": "1.2.0",
+  "ratio": "9:16",
+  "default_size": {
+    "width": 720,
+    "height": 1280
+  },
+  "brand": {
+    "watermark": "半斤九两 · 龙虾",
+    "intro_mark": "半斤九两 · 龙虾",
+    "intro_title": "龙虾 AI 升级之旅",
+    "intro_subtitle": "把一次学习，剪成一条内容资产 / AI 让外贸更简单",
+    "outro_mark": "AI 未来派 · 半斤九两",
+    "outro_title": "半斤九两",
+    "outro_subtitle": "AI 让外贸更简单 / 下一条内容，交给龙虾来剪"
+  },
+  "layout": {
+    "intro_duration": 3,
+    "outro_duration": 5,
+    "body_caption_bottom_safe_area_px": 220,
+    "corner_radius_px": 8,
+    "use_html_text_only": true,
+    "preferred_brand_background": "real venue or course photo",
+    "fallback_opening_bg": "template/opening-bg.jpeg",
+    "fallback_ending_bg": "template/ending-bg.jpeg"
+  },
+  "audio": {
+    "tts": "coze-longxia-preferred",
+    "bgm_priority": [
+      "licensed_library",
+      "free_commercial_with_source",
+      "scripts/generate-bgm.py fallback"
+    ]
+  }
+}
+

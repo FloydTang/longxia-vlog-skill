@@ -1,0 +1,8 @@
+.DS_Store
+node_modules/
+__pycache__/
+*.pyc
+runs/
+测试素材/
+*.wav
+*.tmp

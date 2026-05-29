@@ -1,0 +1,16 @@
+{
+  "name": "longxia-vlog-skill",
+  "version": "1.2.0",
+  "private": true,
+  "description": "Longxia branded vlog production skill for 9:16 course and event videos.",
+  "scripts": {
+    "lint:sample": "npx --yes --package hyperframes@0.6.46 hyperframes lint runs/2026-05-26-test-vlog",
+    "inspect:sample": "npx --yes --package hyperframes@0.6.46 hyperframes inspect runs/2026-05-26-test-vlog --samples 12 --json"
+  },
+  "devDependencies": {
+    "hyperframes": "0.6.46"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}
